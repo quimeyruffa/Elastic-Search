@@ -4,7 +4,6 @@ import AppSearchAPIConnector from "@elastic/search-ui-app-search-connector";
 const connector = new AppSearchAPIConnector({
   searchKey: "search-fq5espgsjiy6sxvs9wwj1a4b",
   engineName: "video-games",
-  
   hostIdentifier: "quimey.ent.us-central1.gcp.cloud.es.io"
 });
 
