@@ -5,7 +5,6 @@ const connector = new AppSearchAPIConnector({
   searchKey: "search-fq5espgsjiy6sxvs9wwj1a4b",
   engineName: "video-games",
   hostIdentifier: "quimey.ent.us-central1.gcp.cloud.es.io",
-  endpointBase:"quimey.ent.us-central1.gcp.cloud.es.io"
 });
 
 // Paso n.º 3: Opciones de configuración
