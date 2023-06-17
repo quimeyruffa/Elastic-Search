@@ -2,11 +2,10 @@ import AppSearchAPIConnector from "@elastic/search-ui-app-search-connector";
 
 // Paso n.º 2: El conector
 const connector = new AppSearchAPIConnector({
-  searchKey: "search-fq5espgsjiy6sxvs9wwj1a4b",
+  searchKey: "search-feodmjyfmqinygyb4u1y254k",
   engineName: "video-games",
-  hostIdentifier:'quimey.ent.us-central1.gcp.cloud.es.io'
+  hostIdentifier: "host-2376rb"
 });
-
 // Paso n.º 3: Opciones de configuración
 export const configurationOptions = {
     apiConnector: connector,
